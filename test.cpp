@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-int *test(){
+int *test01(){
     int *p = new int(10);
     return p;
 }
