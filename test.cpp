@@ -7,12 +7,20 @@ int *test(){
     int *p = new int(10);
     return p;
 }
-
+int test02(){
+    int *arr = new int[10];
+    for (int i = 0; i < 10;i++)
+    {
+        arr[i] = i + 10;
+    }
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] << endl;
+    }
+}
 int main()
 {
-    int *p = test();
-    cout << *p << endl;
-    cout << *p << endl;
+    test02();
     vector<string>
         msg{"你好", "C++"};
     for (const string& word : msg)
