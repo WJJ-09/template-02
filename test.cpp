@@ -11,7 +11,7 @@ int test02(){
     int *arr = new int[10];
     for (int i = 0; i < 10;i++)
     {
-        arr[i] = i + 55;
+        arr[i] = i + 80;
     }
     for (int i = 0; i < 10; i++)
     {
