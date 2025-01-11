@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wjj/template-02/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Example.dir/test.cpp.o -c /home/wjj/template-02/test.cpp",
+  "file": "/home/wjj/template-02/test.cpp"
+}
+]

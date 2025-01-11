@@ -11,7 +11,7 @@ int test02(){
     int *arr = new int[10];
     for (int i = 0; i < 10;i++)
     {
-        arr[i] = i + 15;
+        arr[i] = i + 80;
     }
     for (int i = 0; i < 10; i++)
     {
@@ -22,7 +22,7 @@ int main()
 {
     test02();
     vector<string>
-        msg{"你好", "C++"};
+        msg{"hello world", "C++"};
     for (const string& word : msg)
     {
         cout << word <<" ";
